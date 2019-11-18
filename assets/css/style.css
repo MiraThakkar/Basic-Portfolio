@@ -1,0 +1,70 @@
+h1{
+    background-color: #4aaaa5;
+    width:15%;
+    color:#eee;
+    padding:20px;
+    text-align: center;
+    margin-left: 400px;
+    margin-bottom:0px;
+    
+}
+nav ul li {
+    display:inline-block;
+    float: right;
+    margin-right: 60px;
+    padding: 0;
+    font-size: 24px;
+}
+section {
+    background-image: url(https://st.depositphotos.com/1003860/2398/i/950/depositphotos_23982891-stock-photo-background-handmade-paper.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top: -30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height:750px;
+    border-top: 2px solid;
+}
+h2 {
+    margin:20px;
+}
+
+#main {
+    clear:both;
+    Background-color: #eee;
+    overflow: auto;
+    width:80%;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#stage{
+
+    Width: 200px;
+    height:200px:
+    border: solid;
+    float: left;
+    margin:20px;
+
+}
+
+p {
+    float:left;
+    width: 80%;
+    padding:10px;
+    margin:20px;
+}
+
+footer {
+    background-color:#666666;
+    padding:20px;
+    width:100;
+    height:20px;
+    clear:both;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+body{
+    
+}
