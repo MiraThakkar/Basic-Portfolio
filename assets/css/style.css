@@ -19,13 +19,16 @@ body{
     clear:both;
     margin-left: auto;
     margin-right: auto;
+    border-bottom: 2px solid;
+    border-color: #cccccc;
+    z-index: 99;
 
 }
 
 #top-header {
     background-color: #ffffff;
     max-width: 960px;
-    height: 60px;  
+    height: 58px;  
     clear:both;
     margin-left: auto;
     margin-right: auto;
@@ -36,29 +39,64 @@ body{
 h1{
     
     background-color: #4aaaa5;
-    display: inline;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    /*display: inline;*/
     text-align: center;
-    padding-bottom: 25px;
+    padding: 12px;
     color:white;
-    padding:25px;
+    margin:auto;
+    vertical-align: middle;
+    width: 33.33%;
+    float:left;
     
 }
+
+h2{
+
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+
+    
+
+}
+    
 nav {
     float:right;
-    margin-top: 30px;
-    font-size: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    /*margin-top: 30px;*/
+    padding: 18px 0 18px 0;
+    font-size: 15px;
     color: #777;
     text-decoration: none;
+    
+}
+
+.menu {
+    border-left: 1px solid;
+    float:left;
+}
+
+.menu:first-child {
+    border: none;
+}
+
+a{
+   padding: 0 10px 0 10px;
+
+    
 }
 
 #main {
     width: 960px;
     Background-color: white;
+    border: 1px solid ;
+    border-color: #dddddd;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin: 80px auto 40px auto;
     overflow:auto;
     padding:10px;
     line-height: 1.5;
+    
 }
 
 #stage {
@@ -137,20 +175,20 @@ img {
     margin-top:20px;
 }
 
-a link{
+a {
     text-decoration: none;
     color: #777777;
 }
   
 a:hover {
-    text-decoration: underline;
+   text-decoration: underline;
 }
   
 a:visited {
     text-decoration: none;
 }
-  a:active {
-    text-decoration: none;
+ a:active {
+    text-decoration: underline;
 }
 
   /* Container holding the image and the text */
@@ -160,18 +198,21 @@ a:visited {
     float:left;
     width:33%;
     margin: 20px;
+    
+
   }
   
   /* Bottom right text */
   .text-block {
     width: 100%;
+    
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     background-color:#4aaaa5;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 15px 0 15px 0;
     text-align: center;
+    overflow: hidden;
 
   }
   
