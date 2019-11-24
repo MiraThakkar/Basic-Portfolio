@@ -202,10 +202,9 @@ a:visited {
 
   }
   
-  /* Bottom right text */
+  /* Bottom text */
   .text-block {
     width: 100%;
-    
     position: absolute;
     bottom: 10px;
     background-color:#4aaaa5;
